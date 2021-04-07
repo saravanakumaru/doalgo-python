@@ -1,0 +1,7 @@
+15100
+Nifty Tradig at the strike 15114 decided to trade ATM 15100
+['NIFTY2121115100CE', 'NIFTY2121115100PE', 'NIFTY2121115150CE', 'NIFTY2121115050PE']
+Traceback (most recent call last):
+  File "tss.py", line 95, in <module>
+    entry_price=pos_df[pos_df['tradingsymbol']==strike]['average_price'].values[0] 
+IndexError: index 0 is out of bounds for axis 0 with size 0

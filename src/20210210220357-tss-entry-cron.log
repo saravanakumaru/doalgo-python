@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "tss.py", line 61, in <module>
+    ltp=instrumentLastPriceExtractor(ltplist,"NSE:NIFTY 50")
+  File "tss.py", line 55, in instrumentLastPriceExtractor
+    ltp = kite.ltp(instrumentlist).get(lookupinstrument).get('last_price')
+  File "/Users/saravana.kumar/opt/anaconda3/envs/algo/lib/python3.8/site-packages/kiteconnect/connect.py", line 595, in ltp
+    return self._get("market.quote.ltp", {"i": ins})
+  File "/Users/saravana.kumar/opt/anaconda3/envs/algo/lib/python3.8/site-packages/kiteconnect/connect.py", line 817, in _get
+    return self._request(route, "GET", params)
+  File "/Users/saravana.kumar/opt/anaconda3/envs/algo/lib/python3.8/site-packages/kiteconnect/connect.py", line 886, in _request
+    raise exp(data["message"], code=r.status_code)
+kiteconnect.exceptions.TokenException: Incorrect `api_key` or `access_token`.

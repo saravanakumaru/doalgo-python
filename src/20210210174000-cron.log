@@ -1,0 +1,24 @@
+can't extract position data..retrying
+can't extract position data..retrying
+can't extract position data..retrying
+can't extract position data..retrying
+can't extract position data..retrying
+can't extract position data..retrying
+can't extract position data..retrying
+can't extract position data..retrying
+can't extract position data..retrying
+can't extract position data..retrying
+can't extract order data..retrying
+can't extract order data..retrying
+can't extract order data..retrying
+can't extract order data..retrying
+can't extract order data..retrying
+can't extract order data..retrying
+can't extract order data..retrying
+can't extract order data..retrying
+can't extract order data..retrying
+can't extract order data..retrying
+Traceback (most recent call last):
+  File "square_off.py", line 65, in <module>
+    placeMarketOrder(ticker,"sell", quantity)
+NameError: name 'ord_df' is not defined

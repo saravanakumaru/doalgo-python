@@ -1,0 +1,15 @@
+15100
+Nifty Tradig at the strike 15106.5 decided to trade ATM 15100
+['NIFTY2121115100CE', 'NIFTY2121115100PE', 'NIFTY2121115150CE', 'NIFTY2121115050PE']
+Traceback (most recent call last):
+  File "tss.py", line 88, in <module>
+    placeMarketOrderForAnExchange(strike,'sell',quantity,kite.EXCHANGE_NFO)
+  File "/Users/saravana.kumar/Downloads/Personal/doalgo/zerodha/src/placing_orders.py", line 59, in placeMarketOrderForAnExchange
+    kite.place_order(tradingsymbol=symbol,
+  File "/Users/saravana.kumar/opt/anaconda3/envs/algo/lib/python3.8/site-packages/kiteconnect/connect.py", line 346, in place_order
+    return self._post("order.place", params)["order_id"]
+  File "/Users/saravana.kumar/opt/anaconda3/envs/algo/lib/python3.8/site-packages/kiteconnect/connect.py", line 821, in _post
+    return self._request(route, "POST", params)
+  File "/Users/saravana.kumar/opt/anaconda3/envs/algo/lib/python3.8/site-packages/kiteconnect/connect.py", line 886, in _request
+    raise exp(data["message"], code=r.status_code)
+kiteconnect.exceptions.InputException: Markets are closed right now. Use GTT for placing long standing orders instead. [Read more.](https://support.zerodha.com/category/trading-and-markets/gtt/articles/what-is-the-good-till-triggered-gtt-feature)

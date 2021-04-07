@@ -1,0 +1,23 @@
+Going to close position for BPCL in NSE
+Going to close position for CUMMINSIND in NSE
+Going to close position for HINDALCO in NSE
+Going to close position for NATIONALUM in NSE
+Going to close position for ONGC in NSE
+Going to close position for SIEMENS in NSE
+Going to close position for TATASTEEL in NSE
+Going to close position for BPCL in NSE
+Going to close position for CUMMINSIND in NSE
+Going to close position for HINDALCO in NSE
+Going to close position for INDIGO in NSE
+Quantities for sell to be placed 15
+Traceback (most recent call last):
+  File "square_off.py", line 92, in <module>
+  File "square_off.py", line 32, in placeMarketOrder
+    transaction_type=t_type,
+  File "/Users/saravana.kumar/opt/anaconda3/envs/algo/lib/python3.8/site-packages/kiteconnect/connect.py", line 346, in place_order
+    return self._post("order.place", params)["order_id"]
+  File "/Users/saravana.kumar/opt/anaconda3/envs/algo/lib/python3.8/site-packages/kiteconnect/connect.py", line 821, in _post
+    return self._request(route, "POST", params)
+  File "/Users/saravana.kumar/opt/anaconda3/envs/algo/lib/python3.8/site-packages/kiteconnect/connect.py", line 886, in _request
+    raise exp(data["message"], code=r.status_code)
+kiteconnect.exceptions.InputException: Trading is halted on NSE across brokers. We are waiting for it to come back online. For equity orders, you can use BSE.

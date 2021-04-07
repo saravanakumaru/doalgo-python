@@ -1,0 +1,43 @@
+Order id is 210218000114919 and order Variety is co
+Order id is 210218000115211 and order Variety is co
+Order id is 210218000115235 and order Variety is co
+Order id is 210218000115253 and order Variety is co
+Order id is 210218000115275 and order Variety is co
+unable to delete order id :  210218000115275
+Order id is 210218000115289 and order Variety is co
+Order id is 210218000115300 and order Variety is co
+Order id is 210218000115274 and order Variety is co
+Order id is 210218001006518 and order Variety is regular
+Order id is 210218002137723 and order Variety is regular
+Order id is 210218002137729 and order Variety is regular
+Order id is 210218002137730 and order Variety is regular
+Order id is 210218002137733 and order Variety is regular
+Order id is 210218002137738 and order Variety is regular
+Order id is 210218002137739 and order Variety is regular
+Order id is 210218002137740 and order Variety is regular
+Order id is 210218002137778 and order Variety is regular
+Order id is 210218002137779 and order Variety is regular
+Order id is 210218002137781 and order Variety is regular
+Order id is 210218002137785 and order Variety is regular
+Order id is 210218001006446 and order Variety is regular
+Order id is 210218000115275 and order Variety is co
+unable to delete order id :  210218000115275
+Order id is 210218000115275 and order Variety is co
+unable to delete order id :  210218000115275
+Order id is 210218000115275 and order Variety is co
+unable to delete order id :  210218000115275
+Order id is 210218000115275 and order Variety is co
+unable to delete order id :  210218000115275
+Going to close position for NIFTY2121815200CE in NSE
+Quantities for buy to be placed 75
+Traceback (most recent call last):
+  File "square_off.py", line 96, in <module>
+  File "square_off.py", line 32, in placeMarketOrder
+    transaction_type=t_type,
+  File "/Users/saravana.kumar/opt/anaconda3/envs/algo/lib/python3.8/site-packages/kiteconnect/connect.py", line 346, in place_order
+    return self._post("order.place", params)["order_id"]
+  File "/Users/saravana.kumar/opt/anaconda3/envs/algo/lib/python3.8/site-packages/kiteconnect/connect.py", line 821, in _post
+    return self._request(route, "POST", params)
+  File "/Users/saravana.kumar/opt/anaconda3/envs/algo/lib/python3.8/site-packages/kiteconnect/connect.py", line 886, in _request
+    raise exp(data["message"], code=r.status_code)
+kiteconnect.exceptions.InputException: Unknown `tradingsymbol`.

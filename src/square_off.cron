@@ -1,0 +1,1 @@
+*/1 * * * MON-FRI /Users/saravana.kumar/opt/anaconda3/bin/python3 /Users/saravana.kumar/Downloads/Personal/doalgo/zerodha/src/square_off.py >> $(date +\%Y\%m\%d\%H\%M\%S)-cron.log

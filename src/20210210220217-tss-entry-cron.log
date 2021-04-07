@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "tss.py", line 39, in <module>
+    instrument_df = getInstrumentDump("NSE")
+  File "/Users/saravana.kumar/Downloads/Personal/doalgo/zerodha/src/getinstruments.py", line 28, in getInstrumentDump
+    instrument_dump = kite.instruments(exchange)
+  File "/Users/saravana.kumar/opt/anaconda3/envs/algo/lib/python3.8/site-packages/kiteconnect/connect.py", line 550, in instruments
+    return self._parse_instruments(self._get("market.instruments", params))
+  File "/Users/saravana.kumar/opt/anaconda3/envs/algo/lib/python3.8/site-packages/kiteconnect/connect.py", line 817, in _get
+    return self._request(route, "GET", params)
+  File "/Users/saravana.kumar/opt/anaconda3/envs/algo/lib/python3.8/site-packages/kiteconnect/connect.py", line 892, in _request
+    raise ex.DataException("Unknown Content-Type ({content_type}) with response: ({content})".format(
+kiteconnect.exceptions.DataException: Unknown Content-Type (text/html) with response: (b'<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n</body>\r\n</html>\r\n')
